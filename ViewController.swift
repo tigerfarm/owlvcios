@@ -10,7 +10,7 @@ import PushKit
 import CallKit
 import TwilioVoice
 //
-// Get your_twilio_runtime_domain, from: https://www.twilio.com/console/runtime/overview
+// let baseURLString = "https://owlvc.herokuapp.com"
 let baseURLString = "https://your_twilio_runtime_domain"
 let accessTokenEndpoint = "/accessToken"
 
@@ -415,3 +415,4 @@ class ViewController: UIViewController, PKPushRegistryDelegate, TVONotificationD
     }
 
 }
+
